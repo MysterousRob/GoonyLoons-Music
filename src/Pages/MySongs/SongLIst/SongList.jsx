@@ -119,11 +119,13 @@ const songs = [
   ];
 
 const SongList = () => {
-    const handleButtonClick = (links) => {
+  const handleButtonClick = (links) => {
+    if (links.length > 0) {
       const randomIndex = Math.floor(Math.random() * links.length);
       const randomLink = links[randomIndex];
-      window.open(randomLink, "_blank");
-    };
+      window.open(randomLink, '_blank');
+    }
+  };
     const spotifyLinks = [
         //link 1 (Bread)
         "https://open.spotify.com/track/5N4GRyheBdS1XiwaRwoEd5?si=ee0ab4cfa4184df1",
@@ -237,25 +239,22 @@ const SongList = () => {
                 <p className="font-bold">{song.artistName}</p>
                 <p className="text-gray-600">{song.songName}</p>
               </div>
-              <div>
-                <button
-                  className="text-lg"
-                  onClick={() => handleButtonClick(spotifyLinks)}
-                >
-                  <img src=""/>
+              <div className="flex gap-3">
+              {song.spotifyLinks.length > 0 && (
+                <button className="text-lg" onClick={() => handleButtonClick(song.spotifyLinks)}>
+                  <img src="path/to/spotify-logo.png" alt="Spotify" className="w-6 h-6" />
                 </button>
-                <button
-                  className="text-lg"
-                  onClick={() => handleButtonClick(soundCloudLinks)}
-                >
-                  <img src=""/>
+              )}
+              {song.soundcloudLinks.length > 0 && (
+                <button className="text-lg" onClick={() => handleButtonClick(song.soundcloudLinks)}>
+                  <img src="path/to/soundcloud-logo.png" alt="SoundCloud" className="w-6 h-6" />
                 </button>
-                <button
-                  className="text-lg"
-                  onClick={() => handleButtonClick(youtubeLinks)}
-                >
-                  <img src=""/>
+              )}
+              {song.youtubeLinks.length > 0 && (
+                <button className="text-lg" onClick={() => handleButtonClick(song.youtubeLinks)}>
+                  <img src="path/to/youtube-logo.png" alt="YouTube" className="w-6 h-6" />
                 </button>
+              )}
               </div>
             </div>
           ))}
