@@ -58,54 +58,64 @@ const songs = [
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: " GoonyLoons |2022 Dark Trap",
+      songName: "Dark Times",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2022 Dark Trap",
+      songName: "On The Come Up",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2021 Dark Trap",
+      songName: "WRLD",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap / Type Beat",
+      songName: "Oops On Fire Prt. 2",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap",
+      songName: "Chasin",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap",
+      songName: "My Gang",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap",
+      songName: "Bread",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap",
+      songName: "WEDO",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
+      artistName: "GoonyLoons |2020 Dark Trap",
+      songName: "Pull Up",
     },
     {
       artistImage: "",
-      artistName: "",
-      songName: "",
-    }
+      artistName: "GoonyLoons |2019 Dark Trap",
+      songName: "Trouble",
+    },
+    {
+      artistImage: "",
+      artistName: "GoonyLoons |2019 Dark Trap",
+      songName: "Slippin",
+    },
+    {
+      artistImage: "",
+      artistName: "GoonyLoons |2019 Dark Trap",
+      songName: "Purp",
+    },
   ];
 
 const SongList = () => {
@@ -212,7 +222,7 @@ const SongList = () => {
   
     return (
       <div className="h-screen flex items-center justify-center">
-        <div className="flex flex-col gap-4 w-full max-h-96 max-w-96 overflow-y-auto border border-grey-200 rounded-lg p-4 bg-grey-100">
+        <div className="flex flex-col gap-4 w-full max-h-[597px] max-w-96 overflow-y-auto border border-grey-200 rounded-lg p-4 bg-grey-100">
           {songs.map((song, index) => (
             <div
               key={index}
