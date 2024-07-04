@@ -1,24 +1,17 @@
 import React, { useState } from 'react';
 import Header from '../../Components/Header/Header';
-import SongManager from '../MySongs/SongManager/SongManager';
 import { Nav1 } from '../../State/Nav'
 import Footer from '../../Components/Footer/Footer';
-import SongList from "../MySongs/SongLIst/SongList";  
+import SongPlayer from "../../Components/SongPlayer/SongPlayer";
 
-const Home = () => {
-    const [songs, setSongs] = useState([]);
-
-    const updateSongs = (updatedSongs) => {
-      setSongs(updatedSongs);
-    };
-  
+const Home = () => { 
     return (
       <div>
           <div className='relative'>
               <Header />
           </div>
           <div>
-            <SongList />
+            <SongPlayer />
           </div>
           <div className='relative bottom-0 w-full'>
               <Footer />

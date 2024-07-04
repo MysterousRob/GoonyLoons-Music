@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const songs = [
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Float.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "Float",
       youtubeLinks: "",
@@ -10,7 +11,7 @@ const songs = [
       spotifyLinks: "", 
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Buss-Down.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "Buss Down",
       youtubeLinks: "",
@@ -18,7 +19,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/That's-Me.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "That's Me",
       youtubeLinks: "",
@@ -26,7 +27,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Double-Time.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "Double Time",
       youtubeLinks: "",
@@ -34,7 +35,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Open-Up-Your-Eyes.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "Open Up Your Eyes",
       youtubeLinks: "",
@@ -42,7 +43,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Revenge-For-What-I-Want.png",
       artistName: "GoonyLoons |2024 Dark Trap",
       songName: "Revenge For What I Want",
       youtubeLinks: "",
@@ -50,7 +51,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Foresee.png",
       artistName: "GoonyLoons |2024 Dark Trap / Type Beat",
       songName: "Foresee",
       youtubeLinks: "",
@@ -58,7 +59,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Figment.png",
       artistName: "GoonyLoons |2024 Dark Trap / Type Beat",
       songName: "Figment",
       youtubeLinks: "",
@@ -66,7 +67,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Asteral.png",
       artistName: "GoonyLoons |2022 Dark Trap / Type Beat",
       songName: "Asteral ",
       youtubeLinks: "",
@@ -74,7 +75,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Heroes.png",
       artistName: "GoonyLoons |2022 Dark Trap",
       songName: "Heroes",
       youtubeLinks: "",
@@ -82,7 +83,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Dark Times.png",
       artistName: " GoonyLoons |2022 Dark Trap",
       songName: "Dark Times",
       youtubeLinks: "",
@@ -90,7 +91,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/On-The-Come Up.png",
       artistName: "GoonyLoons |2022 Dark Trap",
       songName: "On The Come Up",
       youtubeLinks: "",
@@ -98,7 +99,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/WRLD.png",
       artistName: "GoonyLoons |2021 Dark Trap",
       songName: "WRLD",
       youtubeLinks: "",
@@ -106,7 +107,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Oops-On-Fire-Prt-2.png",
       artistName: "GoonyLoons |2020 Dark Trap / Type Beat",
       songName: "Oops On Fire Prt. 2",
       youtubeLinks: "",
@@ -114,7 +115,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/MTN-DEW.png",
       artistName: "GoonyLoons |2020 Dark Trap / Type Beat",
       songName: "MTN DEW",
       youtubeLinks: "https://www.youtube.com/watch?v=V-1i24bsbC4",
@@ -122,7 +123,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Chasin.png",
       artistName: "GoonyLoons |2020 Dark Trap",
       songName: "Chasin",
       youtubeLinks: "",
@@ -130,7 +131,7 @@ const songs = [
       spotifyLinks: "",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/My-Gang.png",
       artistName: "GoonyLoons |2020 Dark Trap",
       songName: "My Gang",
       youtubeLinks: "",
@@ -138,7 +139,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/0HuM9NAGqUoUh433Fpy7cH?si=a4bb7a7a958440c3",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Bread.png",
       artistName: "GoonyLoons |2020 Dark Trap",
       songName: "Bread",
       youtubeLinks: " https://www.youtube.com/watch?v=FKFuufwaOG0&list=OLAK5uy_n3naiA5pulPkOJAMjNpu-aEArHRrtxcn0",
@@ -146,7 +147,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/5N4GRyheBdS1XiwaRwoEd5?si=ee0ab4cfa4184df1",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/WEDO.png",
       artistName: "GoonyLoons |2020 Dark Trap",
       songName: "WEDO",
       youtubeLinks: "https://www.youtube.com/watch?v=60y6id1d5HU&list=OLAK5uy_lUv6bY_gNpYxMcEzs77Ycnt2X6q6mbyxA",
@@ -154,7 +155,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/5LzZe7tfWxK0bgDalpF7LO?si=0675eef288cd4f33",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Pull-Up.png",
       artistName: "GoonyLoons |2020 Dark Trap",
       songName: "Pull Up",
       youtubeLinks: "https://www.youtube.com/watch?v=aZUQTH5hYRw&list=OLAK5uy_kf-zVr9NCeNhnuTvwciS-paCO9N9Of9cU",
@@ -162,7 +163,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/22ovKyKU6cWa2NEENj55uG?si=4da5846db73f432e",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Trouble.png",
       artistName: "GoonyLoons |2019 Dark Trap",
       songName: "Trouble",
       youtubeLinks: "https://www.youtube.com/watch?v=x7f-CINJSlc&list=OLAK5uy_nOsOy-UguViYH1QpaDIRY82ViZZ24Vnnw",
@@ -170,7 +171,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/1A5pKUYSP2Fsy7UANPbNPr?si=821cd983dcb94b6e",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Slippin.png",
       artistName: "GoonyLoons |2019 Dark Trap",
       songName: "Slippin",
       youtubeLinks: "https://www.youtube.com/watch?v=5yWb7sz_SM0&list=OLAK5uy_moC0jCK01bTkDWIl4qQhGmdOdswf1Kj9U",
@@ -178,7 +179,7 @@ const songs = [
       spotifyLinks: "https://open.spotify.com/track/7d7vx7ovlfrcdgoLEqYIO3?si=273bbf4719754535",
     },
     {
-      artistImage: "",
+      artistImage: "Public/pictures-2/Purp.png",
       artistName: "GoonyLoons |2019 Dark Trap",
       songName: "Purp",
       youtubeLinks: "https://www.youtube.com/watch?v=9VhTVoXUwrQ&list=OLAK5uy_mktc1OdsmlphSoeoBWQYvN9Eeq0vpRyYI",
@@ -188,19 +189,9 @@ const songs = [
   ];
 
 const SongList = () => {
-  const handleButtonClick = (links, platform) => {
-    if (links.length > 0) {
-      const randomIndex = Math.floor(Math.random() * links.length);
-      const randomLink = links[randomIndex];
-      console.log(`Opening ${platform} link: ${randomLink}`);
-      window.open(randomLink, '_blank');
-    } else {
-      console.log(`No ${platform} links available.`);
-    };
-  };
   
     return (
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-[80vh] flex items-center justify-center">
         <div className="flex flex-col gap-4 w-full max-h-[700px] max-w-[850px] overflow-y-auto border border-grey-200 rounded-lg p-4 bg-grey-100">
         {songs.map((song, index) => (
           <div key={index} className="flex items-center justify-between p-4 border border-gray-300 rounded-lg bg-white">
@@ -211,19 +202,19 @@ const SongList = () => {
             </div>
             <div className="flex gap-3">
             {song.soundcloudLinks.length > 0 && (
-                <button className="text-lg" onClick={() => handleButtonClick(song.soundcloudLinks)}>
-                  <img src="src\assets\Icons\Soundcloudorrrig.png" alt="SoundCloud" className="w-6 h-6" />
-                </button>
+                <a className="text-lg" href={song.soundcloudLinks} target="_blank">
+                  <img src="src/assets/Icons/Soundcloudorrrig.png" alt="SoundCloud" className="w-6 h-6" />
+                </a>
               )}
               {song.spotifyLinks.length > 0 && (
-                <button className="text-lg" onClick={() => handleButtonClick(song.spotifyLinks)}>
-                  <img src="src\assets\Icons\spotifyicon.png" alt="Spotify" className="w-6 h-6" />
-                </button>
+                <a className="text-lg" href={song.spotifyLinks} target="_blank">
+                  <img src="src/assets/Icons/spotifyicon.png" alt="Spotify" className="w-6 h-6" />
+                </a>
               )}
               {song.youtubeLinks.length > 0 && (
-                <button className="text-lg" onClick={() => handleButtonClick(song.youtubeLinks)}>
-                  <img src="src\assets\Icons\youtuborrig.png" alt="YouTube" className="w-6 h-6" />
-                </button>
+                <a className="text-lg" href={song.youtubeLinks} target="_blank">
+                  <img src="src/assets/Icons/youtuborrig.png" alt="YouTube" className="w-6 h-6" />
+                </a>
               )}
             </div>
           </div>

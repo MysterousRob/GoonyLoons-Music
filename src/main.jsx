@@ -4,7 +4,6 @@ import * as ReactDOM from "react-dom/client";
 import App from './App.jsx';
 import MySongs from "./Pages/MySongs/MySongs.jsx";
 import AboutMe from "./Pages/AboutMe/AboutMe.jsx";
-import SongManager from "./Pages/MySongs/SongManager/SongManager.jsx";
 //css imports
 import './assets/Css/General.css'
 //router imports
@@ -35,11 +34,6 @@ const router = createBrowserRouter([
     path: "/about-me", 
     element: <AboutMe />,
     errorElement: <ErrorPage />                                                                                                               
-  },
-  {
-    path: "/song-manager",
-    element: <SongManager />,
-    errorElement: <ErrorPage />
   }
 ]);
 
